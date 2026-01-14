@@ -111,8 +111,4 @@ alias cl='clear'
 #alias ls='nnn -de'
 fastfetch
 
-# Created by `pipx` on 2025-11-06 16:15:46
-export PATH="$PATH:/home/dimon4ik/.local/bin"
-export EDITOR=vim
-
 export PATH=$PATH:/home/dimon4ik/.spicetify
