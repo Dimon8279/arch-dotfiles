@@ -107,6 +107,7 @@ alias sct='systemctl-tui'
 alias restart-plasma='systemctl --user restart plasma-plasmashell.service'
 alias my-card='[ -b /dev/mmcblk0p1 ] && (mount | grep -q mmcblk0p1 && udisksctl unmount -b /dev/mmcblk0p1 || udisksctl mount -b /dev/mmcblk0p1) || echo "No card found"'
 #alias login='systemctl restart sddm'
+alias ff='fastfetch'
 alias cl='clear'
 #alias ls='nnn -de'
 fastfetch
