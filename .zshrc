@@ -128,6 +128,8 @@ alias restart-plasma='systemctl --user restart plasma-plasmashell.service'
 alias ff='fastfetch'
 alias cl='clear'
 #alias ls='nnn -de'
-fastfetch
+if [[ -z "$TMUX" ]]; then
+    fastfetch
+fi
 
 export PATH=$PATH:/home/dimon4ik/.spicetify
