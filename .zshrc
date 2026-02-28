@@ -114,8 +114,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sc='systemctl'
-alias sct='systemctl-tui'
 alias restart-plasma='systemctl --user restart plasma-plasmashell.service'
 #alias login='systemctl restart sddm'
 alias ff='fastfetch'
