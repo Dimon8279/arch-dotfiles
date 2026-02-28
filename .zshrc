@@ -121,5 +121,3 @@ alias cl='clear'
 if [[ -z "$TMUX" ]]; then
     fastfetch
 fi
-
-export PATH=$PATH:/home/dimon4ik/.spicetify
